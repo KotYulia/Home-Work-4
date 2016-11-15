@@ -1,0 +1,223 @@
+@font-face {
+	font-family: "helvetica-bdex";
+	src: url(../fonts/helvetica-bdex.ttf);
+	src: url(../fonts/helvetica-bdex.eot);
+	src: url(../fonts/helvetica-bdex.otf);
+	src: url(../fonts/helvetica-bdex.woff);
+}
+@font-face {
+	font-family: "helvetica-thex";
+	src: url(../fonts/helvetica-thex.ttf);
+	src: url(../fonts/helvetica-thex.eot);
+	src: url(../fonts/helvetica-thex.otf);
+	src: url(../fonts/helvetica-thex.woff);
+}
+@font-face {
+	font-family: "myriad-regular";
+	src: url(../fonts/myriad-regular.ttf);
+	src: url(../fonts/myriad-regular.eot);
+	src: url(../fonts/myriad-regular.otf);
+	src: url(../fonts/myriad-regular.woff);
+}
+.wrapper {
+	width: 775px;
+	height: 680px;
+	display: flex;
+	flex-direction: column;
+	padding: 0 50px;
+}
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #93c305;
+}
+h1 {
+	margin: 27px auto 28px 35px;
+	color: white;
+}
+.science {
+	font: 32px/14px "helvetica-thex";
+}
+.lab {
+	font: 32px/14px "helvetica-bdex";
+}
+nav {
+}
+.menu {
+	display: flex;
+	max-width: 100%;
+	height: 77px;
+	justify-content: space-between;
+	text-align: justify;
+	align-items: center;
+	padding-left: 36px;
+	padding-right: 38px;
+}
+.menu li {
+	display: inline-block;
+	text-align: center;
+	font: 400 20px/14px "myriad-regular";
+	position: relative;
+}
+a {
+	text-decoration: none;
+	color:  #093500;
+}
+.menu li:before {
+	content: '';
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	margin-left: -25px;
+	top: 5px;
+	background: url('../images/arrow.jpg') no-repeat;
+}
+.menu li:first-child:before {
+	background-image: none;
+	content: '';
+}
+
+p {
+	font: 400 10px/14px "tahoma", regular;
+	color: #093500;
+}
+span.bold {
+	font: 700 11px/14px "tahoma", regular;
+	color: #80a60f;
+	display: block;
+}
+.home {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eeeefb;
+	width: 100%;
+	height: 191px;
+	overflow: hidden;
+	position: relative;
+}
+.home img {
+	position: absolute;
+	top: -69px;
+	margin-left: 17px;
+}
+.content-home {
+	display: flex;
+	flex-wrap: wrap;
+	width: 372px;
+	margin: 33px 34px 41px 269px;
+}
+.content-home h2 {
+	margin-bottom: 25px;
+}
+.content-home p {
+	width: 323px;
+	height: 67px;
+	margin-left: 49px;
+}
+.content-home div {
+	margin-left: 49px;
+	position: relative;
+}
+.content-home div a:before {
+	content: '';
+	position: absolute;
+	width: 13px;
+	height: 9px;
+	top: 14px;
+	background: url('../images/arrow-home.png') no-repeat;
+}
+.welcome {
+	font: 32px/14px "helvetica-thex";
+}
+.our-lab {
+	font: 32px/14px "helvetica-bdex";
+}
+h2 {
+	color: #093500;
+}
+.myriad {
+	font: 400 20px/14px "myriad-regular";
+}
+.content {
+	display: flex;
+	align-items: stretch;
+	height: 261px;
+	margin: 0 24px 0 27px;
+}
+.content-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 205px;
+	height: 204px;
+	margin-right: 29px;
+	margin-top: 20px;
+}
+.vertical-line {
+	border-right: 2px solid #eeeefb;
+	height: 208px;
+	margin-top: 28px;
+}
+.content-about h2 {
+	margin-bottom: 23px;	
+}
+.content-about div {
+	position: relative;
+}
+.content-about div a:before {
+	content: '';
+	position: absolute;
+	width: 13px;
+	height: 9px;
+	top: 16px;
+	background: url('../images/arrow-home.png') no-repeat;
+}
+.content-both {
+	width: 415px;
+	margin-left: 19px;
+	margin-top: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.horizontal-line {
+	border: 1px solid #eeeefb;
+	width: 379px;
+	margin: auto 21px 17px -4px;
+}
+.content-recearches p, .content-services p {
+	width: 210px;
+	height: 53px;
+	margin-top: 20px;
+}
+.content-recearches, .content-services {
+	display: flex;
+	height: 94px;
+}
+.content-recearches div, .content-services  div {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: space-between;
+	margin-left: 21px;
+	height: 94px;
+}
+.content-services {
+		margin-bottom: 22px;
+}
+.content-recearches {
+	margin-bottom: 15px;
+}
+.copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+.line {
+	border: 5px solid #eeeefb;
+	margin-bottom: 29px;
+	width: 675px;
+}
+
